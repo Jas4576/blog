@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.black {
+    min-height: 80px;
+    color: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-color-blue {
+    color: aqua;
+    text-decoration-color: rgb(0, 255, 255);
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    width: 97%;
+    margin: 50px auto;
+    padding-top: 140px;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.732);
+    /*opacity: .5; прозрачность*/
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.margin-left-top {
+    padding-top: 80px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :root{
+        scroll-behavior: smooth;
+    }
+}
+
+.margin-link {
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+.header {
+    min-height: 120px;
+    padding: 0 5px;
+    box-shadow: 0 3px 10px 1px rgb(40, 39, 39);
+}
+
+.menu {
+    gap: 15px;
+}
+
+.menu__link {
+    width: 100px;
+    height: 30px;
+    background: rgb(227, 223, 211);
+    color: black;
+    border-radius: 4px;
+    transition: .2s;
+}
+
+.menu__link:hover {
+    font-weight: 900;
+}
+
+.line-height-130 {
+    line-height: 130%;
+}
+
+.logo {
+    border-radius: 3px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.padding-deco {
+    padding: 5px;
+}
+
+.post {
+    border-bottom: 5px solid rgb(241, 153, 13);
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+}
+
+.post__img {
+    border-radius: 50px;
+}
+
+.post__img2 {
+    float: left;
+    border-radius: 3px;
+    margin-right: 10px;
+}
