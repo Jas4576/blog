@@ -74,6 +74,10 @@ a {
     margin-top: 10px;
 }
 
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     :root{
         scroll-behavior: smooth;
